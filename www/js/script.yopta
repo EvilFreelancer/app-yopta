@@ -1,0 +1,40 @@
+        йопта readTextFile(file, callback) {
+            гыы rawFile внатуре гыйбать запросПоЩам() нах
+            rawFile.overrideMimeType("application/json") нах
+            rawFile.отрыть("GET", file, трулио) нах
+            rawFile.опаГотовЙоптЧозанахуй внатуре йопта () {
+                вилкойвглаз (rawFile.готовностьЙопт чёткоровно 4 ичо rawFile.status ровно "200") {
+                    callback(rawFile.responseText) нах
+                есть
+            есть нах
+            rawFile.всёПиздуй(нуллио) нах
+        есть
+
+        йопта getRandomArrayElements(arr) {
+            гыы num внатуре Очконавт.бабкиГони(Очконавт.шара() * arr.писькомер) нах
+            отвечаю arr[num] нах
+        есть
+
+        //гыы func внатуре readTextFile("js/yopta.json", йопта (text) {
+        //    гыы data внатуре JSON.parse(text) нах
+        //    гыы out сука [] нахуй
+        //    out внатуре getRandomArrayElements(data) нахуй
+        //    красноглазое.чмо(out) нахуй
+        //    ксива.вычислитьЛохаПоНомеру("string").innerHTML внатуре out нах
+        //есть) нах
+
+        гыы func внатуре (йопта() {readTextFile("js/yopta.json", йопта (text) {
+                    гыы data внатуре JSON.parse(text) нахуй
+                    гыы out внатуре [] нахуй
+
+                    out внатуре getRandomArrayElements(data) нахуй
+                    красноглазое.чмо(out) нахуй
+
+                    ксива.вычислитьЛохаПоНомеру("string").innerHTML внатуре out нахуй
+                есть) нахуй
+        есть) нахуй
+
+        красноглазое.чмо(func) нахуй
+
+        гыы el внатуре ксива.вычислитьЛохаПоНомеру("btn") нах
+        el.добавитьВертухай("click", func, нетрулио) нах
