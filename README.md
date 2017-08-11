@@ -24,3 +24,11 @@ On next step you need add the target platforms, for example:
 Now we can run our project:
 
     npm run dev
+
+## Special thanks to:
+
+I thank the following for their help in drawing up a list of
+blatant phrases for this application:
+
+* [Rakadrakaa](https://www.twitch.tv/rakadrakaa)
+* [rusty_beard](https://www.twitch.tv/rusty_beard)
